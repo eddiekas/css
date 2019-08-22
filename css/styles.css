@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  /*text-align: center; this isnt perfect since under h1 you can change using width. so use auto under whatever class to center. */
+  text-align: center;
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif*/
+  font-family: 'Merriweather', serif;
+
+}
+
+/*all four sides are 0*/
+.firstDiv {
+  background-color: #E4F9F5;
+  /*  border-left-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 0px;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;  or maybe padding: 20px;
+    border: solid 10px;*/
+  position: relative;
+  padding-top: 200px;
+}
+
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.d {
+  text-decoration: underline;
+}
+.dancer{
+  font-weight: normal;
+  line-height: 2;
+
+}
+
+
+
+/*for span editing*/
+/*.secDiv {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  /*border-left-width: 10px; */
+/* border-top-width: 10px; */
+/* border-right-width: 10px; */
+/* border-bottom-width: 10px; */
+/*border: solid 20px;*/
+/* align-content: center; */
+/* align-items: center;
+        margin-left: 260px;*/
+/*}
+
+.thirdDiv {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  /*background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    margin-left: 500px;*/
+/*}*/
+h1 {
+  /*margin-top: 0;      you can remove this with the margin code
+  margin-bottom: 0;         FONT.GOOGLE.COM                 */
+  margin: 50px auto 0 auto;
+  /*starts from 12 to 3 to 6 to 9, clockwise   100% in font-size is equiavlent to 16px, so for 90px the 90/16X100%
+  1em = 16px */
+  font-family: 'Sacramento', cursive;
+  /*font-size: 562.5%;  5.625em, 1em=16px=100% if you add 100% in BODY since its the parent then this hi font will be added on that one of the BODY
+                        if you want to use this one alone and ignore the BODY one then use REM and not EM to use rootEM*/
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.firstDancePic{
+  border-radius: 100%;
+  height: 750px;
+  border: solid red;
+  margin-bottom: 50px;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+.hrHello{
+  border-style: none;
+  width: 10%;
+  border-top: 10px dotted #40514E;
+  margin: 100px auto 100px auto;
+}
+
+.skills{
+}
+
+
+
+.paraHusband{
+  color: #40514E;
+
+}
+
+
+
+.lovingBaby{
+/*clear: left; */     /*meaning nothing on the left side of this paragraph, kind of like opposite of FLOAT in terms of sth being next to it or nah*/
+
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.loveImage{
+  width: 50%;  /*its 25% of skill-row which is 50%*/
+  float: left;
+  margin-right: 30px;
+
+}
+.ninetysImage{
+  width: 25%;  /*its 25% of skill-row which is 50%*/
+  float: right;
+  margin-left: 30px;
+
+}
+
+.hrPoetry{
+  border-style: none;
+  width: 10%;
+  border-top: 10px dotted #40514E;
+  margin: 100px auto 100px auto;
+
+}
+
+.divGetInTouch{
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+
+
+
+
+
+.btn{
+  color: #11999E;
+}
+
+.footer-link{
+  color: #11999E;
+
+}
+
+.divBottom-container{
+  background-color: #66BFBF;
+  height: 175px;
+}
+
+.footer-link{
+  color: black;
+
+}
+.footers-link{
+  color: black;
+}
+
+
+
+
+
+
+
+
+/*You can get pictures from FLATICON and GIPHY
+
+http://lorem-ipsum.perbang.dk/     creating imaginary words and sentences and the like.
+
+fonts.google.com     FONTS
+
+
+*/
+
+
+
+/*display:, NONE, INLINE , BLOCK, INLINE BLOCK*/
+/*common inline
+spans <span>, images <img>, anchors <a> because whatever the code is itll be in line
+you cant change the WIDTH, UNLIKE the BLOCK ELEMENTS such as paragraphs, headings,
+INLINE BLOCK has both width changing and still on the same line*/
+/*visibility: hidden*/
+/*position: STATIC(which is the default htmml flow of downwards), RELATIVE, ABSOLUTE, FIXED
+position: relative;
+left: 200px; means the obj moves right 200px*/
+/*coordinates: left, right ,bottom, up...  img{top:50px}moves bottom 50
+ABSOLUTE positioning is literally right: 10px then it move right UNLIKE RELATIVE.
+*/
+/*
+.blue{
+  background-color: blue;
+  height:20px;
+  width:20px;
+}
+.yellow{
+  background-color: yellow;
+  height:20px;
+  width:20px;
+  position: relative;
+  left: 21px;
+  bottom: 20px        Shortcut instead of using this line you can use display: inline-block.
+}
+.red{
+  background-color: red;
+  height:20px;
+  width:20px;
+  position: relative;
+  left: 41px;
+  bottom: 40px;
+}
+
+using display inline-block with relative position
+
+blue{
+  background-color: blue;
+  height:200px;
+  width:200px;
+  display:inline-block;
+}
+.yellow{
+  background-color: yellow;
+  height:200px;
+  width:200px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+.red{
+  background-color: red;
+  height:200px;
+  width:200px;
+  display: inline-block;
+  position: relative;
+  left: 401px;
+}
+*/
+/*ABSOLUTE on an object makes it free and the object below goes up to its position unless another div box ismade and made relative to that and thats whn absolute will go right when told right otherwise left is right
+body{
+  margin: 0;
+}
+.blue{
+  background-color: blue;
+  height:100px;
+  width:100px;
+  position: absolute;
+  left: 100px;
+  top:100px;
+
+}
+.yellow{
+  background-color: yellow;
+  height:100px;
+  width:100px;
+  position: absolute;
+}
+.red{
+  background-color: red;
+  height:100px;
+  width:100px;
+  position: absolute;
+  left:200px;
+  top:200px;
+
+}
+*/
